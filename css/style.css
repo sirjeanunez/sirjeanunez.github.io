@@ -1,0 +1,119 @@
+body {
+	background: #d9d9d9;
+}
+section.header {
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	background: #1A1A1A; 
+	text-align: center;
+}
+
+span.name {
+	font-family: 'Fredoka One', cursive;
+    display: block;
+    font-size: 41px;
+    color: white;
+}
+
+span.description {
+	color: #FFF;
+}
+
+.education-row {
+    position: relative;
+    background: #acacac;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.education-row:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	z-index: 1;
+}
+
+.education-row:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #acacac;
+	border-width: 12px;
+}
+
+.two  {
+	background-color:#959595!important;
+}
+
+.two:before {
+	border-top-color:#959595!important;
+}
+
+.three  {
+	background-color:#818181!important;
+}
+
+.three:before {
+	border-top-color:transparent!important;
+}
+
+.panel-heading {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 23px;
+	text-transform: uppercase;
+}
+
+.education-name {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 25px;
+}
+
+section.body {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #DDDDDD;
+}
+
+.contact-row { padding: 10px; border-bottom: 1px dotted #ddd; }
+.contact-row label { font-size: 12px; font-weight: normal; }
+.contact-row .contact-value { font-weight: bold; margin-top: -8px; }
+
+img.mypicture {
+	width: 200px;
+	height: 200px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1A1A1A;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+section.skills {
+	padding-top: 35px; 
+	padding-bottom: 35px;
+	background: #1A1A1A; 
+}
+section.education {
+	padding-top: 35px; 
+	padding-bottom: 35px;
+	background: #2a2a2a; 
+}
+
